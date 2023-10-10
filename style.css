@@ -1,0 +1,22 @@
+.container {
+    background-color: blanchedalmond;
+
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
+
+
+    justify-content: flex-start;
+
+    height: 500px;
+
+
+    align-items: flex-start;
+}
+
+.child {
+    background-color: chocolate;
+    width: 250px;
+    margin: 5px;
+}
